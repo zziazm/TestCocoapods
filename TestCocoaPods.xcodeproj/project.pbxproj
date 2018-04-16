@@ -15,6 +15,7 @@
 		9808C5AF208453C600F0885C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9808C5AE208453C600F0885C /* main.m */; };
 		9808C5B9208453C600F0885C /* TestCocoaPodsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9808C5B8208453C600F0885C /* TestCocoaPodsTests.m */; };
 		9808C5C4208453C600F0885C /* TestCocoaPodsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9808C5C3208453C600F0885C /* TestCocoaPodsUITests.m */; };
+		9808C5F6208454B300F0885C /* UIView+ZMAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 9808C5F5208454B300F0885C /* UIView+ZMAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		9808C5BF208453C600F0885C /* TestCocoaPodsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestCocoaPodsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9808C5C3208453C600F0885C /* TestCocoaPodsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCocoaPodsUITests.m; sourceTree = "<group>"; };
 		9808C5C5208453C600F0885C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9808C5F4208454B300F0885C /* UIView+ZMAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+ZMAdd.h"; sourceTree = "<group>"; };
+		9808C5F5208454B300F0885C /* UIView+ZMAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZMAdd.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		9808C59E208453C600F0885C /* TestCocoaPods */ = {
 			isa = PBXGroup;
 			children = (
+				9808C5F32084549900F0885C /* UIViewCategory */,
 				9808C59F208453C600F0885C /* AppDelegate.h */,
 				9808C5A0208453C600F0885C /* AppDelegate.m */,
 				9808C5A2208453C600F0885C /* ViewController.h */,
@@ -131,6 +135,15 @@
 			);
 			path = TestCocoaPodsUITests;
 			sourceTree = "<group>";
+		};
+		9808C5F32084549900F0885C /* UIViewCategory */ = {
+			isa = PBXGroup;
+			children = (
+				9808C5F4208454B300F0885C /* UIView+ZMAdd.h */,
+				9808C5F5208454B300F0885C /* UIView+ZMAdd.m */,
+			);
+			path = UIViewCategory;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -266,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9808C5A4208453C600F0885C /* ViewController.m in Sources */,
+				9808C5F6208454B300F0885C /* UIView+ZMAdd.m in Sources */,
 				9808C5AF208453C600F0885C /* main.m in Sources */,
 				9808C5A1208453C600F0885C /* AppDelegate.m in Sources */,
 			);
